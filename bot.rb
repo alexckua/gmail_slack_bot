@@ -18,6 +18,7 @@ module Bot
         message = @gmail.get_message(email)
 
         @slack.post_message(message)
+        @gmail.read_email(email)
       end
     end
   end

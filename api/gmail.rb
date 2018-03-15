@@ -19,5 +19,9 @@ module Bot
       email.subject
       email.text_part.body
     end
+
+    def read_email(email)
+      email.read!
+    end
   end
 end
