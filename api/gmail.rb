@@ -1,6 +1,6 @@
 require 'gmail'
 require 'json'
-require_relative 'environment'
+require_relative '../config/environment'
 
 module Bot
   class GmailApi

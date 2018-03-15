@@ -1,7 +1,7 @@
 require 'json'
 require 'slack'
 require 'rubygems'
-require_relative 'environment'
+require_relative '../config/environment'
 
 module Bot
   class SlackApi
