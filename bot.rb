@@ -23,3 +23,5 @@ module Bot
   end
 end
 
+bot = Bot::Messages.new
+bot.run

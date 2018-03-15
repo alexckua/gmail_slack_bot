@@ -6,3 +6,4 @@ gem 'gmail'
 gem 'slack-ruby-client'
 gem 'http'
 gem 'json', '1.8.6'
+gem 'whenever', require: false
