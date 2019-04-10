@@ -12,7 +12,7 @@ module Bot
     end
 
     def get_email
-      @gmail_client.inbox.find(:unread, :from => "pullrequests-reply@bitbucket.org")
+      @gmail_client.inbox.find(:unread)
     end
 
     def get_message(email)
