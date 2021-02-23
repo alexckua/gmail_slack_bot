@@ -35,7 +35,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    json (1.8.6)
+    json (2.3.0)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     mini_mime (1.0.0)
@@ -69,7 +69,7 @@ PLATFORMS
 DEPENDENCIES
   gmail
   http
-  json (= 1.8.6)
+  json (= 2.3.0)
   slack-ruby-client
   whenever
 
